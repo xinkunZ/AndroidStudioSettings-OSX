@@ -1,107 +1,145 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="FileColors">
-        <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
-        <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
-        <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
-        <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+      <component name="ESLintProjectComponent">
+        <option name="nodeInterpreter" value="" />
       </component>
+      <component name="EclipseCodeFormatterProjectSettings">
+        <option name="projectSpecificProfile">
+          <ProjectSpecificProfile>
+            <option name="formatter" value="ECLIPSE" />
+            <option name="pathToConfigFileJava" value="C:/java/rumba-format.xml" />
+            <option name="selectedJavaProfile" value="rumba format" />
+          </ProjectSpecificProfile>
+        </option>
+        <option name="selectedGlobalProfile">
+          <Settings>
+            <option name="eclipseVersion" value="ECLIPSE_44" />
+            <option name="formatSeletedTextInAllFileTypes" value="false" />
+            <option name="formatter" value="ECLIPSE" />
+            <option name="id" value="1473130781068" />
+            <option name="importOrder" value="java;javax;org;sun;com;" />
+            <option name="importOrderConfigFilePath" value="C:/WorkSpace/eclipse/jpos-eclipse-template/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+            <option name="importOrdering" value="ECLIPSE_44" />
+            <option name="name" value="rumba" />
+            <option name="pathToConfigFileJava" value="C:/java/rumba-format.xml" />
+            <option name="selectedJavaProfile" value="rumba format" />
+            <option name="useOldEclipseJavaFormatter" value="true" />
+          </Settings>
+        </option>
+      </component>
+      <component name="GradleLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="D:/WorkSpace/material-theme-jetbrains" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="IssueNavigationConfiguration">
+        <option name="links">
+          <list>
+            <IssueNavigationLink>
+              <option name="issueRegexp" value="(JPOS|JPOSCS|OTTER|HDPOS|PSORG){1}\-\d\w+" />
+              <option name="linkRegexp" value="http://hddenv:8080/jira/browse/$0" />
+            </IssueNavigationLink>
+            <IssueNavigationLink>
+              <option name="issueRegexp" value="(?!.*(JPOS|JPOSCS|OTTER|HDPOS|PSRG)|\-)\w+-\d\w+" />
+              <option name="linkRegexp" value="http://jira6.app.hd123.cn/jira/browse/$0" />
+            </IssueNavigationLink>
+          </list>
+        </option>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.6" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="android.sdk.path" value="D:/Android/sdk" />
-        <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-        <property name="last_opened_file_path" value="C:/java/git/bin/git.exe" />
-        <property name="android.project.structure.last.selected" value="SDK Location" />
-        <property name="android.project.structure.proportion" value="0.15" />
+        <property name="android.sdk.path" value="D:/Android/Sdk" />
+        <property name="last_opened_file_path" value="C:/java/rumba-format.xml" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
       </component>
-      <component name="RunManager">
-        <configuration default="true" type="Application" factoryName="Application">
-          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-          <option name="MAIN_CLASS_NAME" />
-          <option name="VM_PARAMETERS" />
-          <option name="PROGRAM_PARAMETERS" />
-          <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-          <option name="ALTERNATIVE_JRE_PATH" />
-          <option name="ENABLE_SWING_INSPECTOR" value="false" />
-          <option name="ENV_VARIABLES" />
-          <option name="PASS_PARENT_ENVS" value="true" />
-          <module name="" />
-          <envs />
-          <method />
-        </configuration>
-        <configuration default="true" type="JUnit" factoryName="JUnit">
-          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-          <module name="" />
-          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-          <option name="ALTERNATIVE_JRE_PATH" />
-          <option name="PACKAGE_NAME" />
-          <option name="MAIN_CLASS_NAME" />
-          <option name="METHOD_NAME" />
-          <option name="TEST_OBJECT" value="class" />
-          <option name="VM_PARAMETERS" value="-ea" />
-          <option name="PARAMETERS" />
-          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-          <option name="ENV_VARIABLES" />
-          <option name="PASS_PARENT_ENVS" value="true" />
-          <option name="TEST_SEARCH_SCOPE">
-            <value defaultName="singleModule" />
-          </option>
-          <envs />
-          <patterns />
-          <method />
-        </configuration>
-        <configuration default="true" type="Remote" factoryName="Remote">
-          <option name="USE_SOCKET_TRANSPORT" value="true" />
-          <option name="SERVER_MODE" value="false" />
-          <option name="SHMEM_ADDRESS" value="javadebug" />
-          <option name="HOST" value="localhost" />
-          <option name="PORT" value="5005" />
-          <method />
-        </configuration>
-        <configuration default="true" type="TestNG" factoryName="TestNG">
-          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-          <module name="" />
-          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-          <option name="ALTERNATIVE_JRE_PATH" />
-          <option name="SUITE_NAME" />
-          <option name="PACKAGE_NAME" />
-          <option name="MAIN_CLASS_NAME" />
-          <option name="METHOD_NAME" />
-          <option name="GROUP_NAME" />
-          <option name="TEST_OBJECT" value="CLASS" />
-          <option name="VM_PARAMETERS" value="-ea" />
-          <option name="PARAMETERS" />
-          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-          <option name="OUTPUT_DIRECTORY" />
-          <option name="ANNOTATION_TYPE" />
-          <option name="ENV_VARIABLES" />
-          <option name="PASS_PARENT_ENVS" value="true" />
-          <option name="TEST_SEARCH_SCOPE">
-            <value defaultName="singleModule" />
-          </option>
-          <option name="USE_DEFAULT_REPORTERS" value="false" />
-          <option name="PROPERTIES_FILE" />
-          <envs />
-          <properties />
-          <listeners />
-          <method />
-        </configuration>
-        <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
-          <option name="MAIN_CLASS_NAME" />
-          <option name="HTML_FILE_NAME" />
-          <option name="HTML_USED" value="false" />
-          <option name="WIDTH" value="400" />
-          <option name="HEIGHT" value="300" />
-          <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-          <option name="VM_PARAMETERS" />
-        </configuration>
-        <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-          <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-        </configuration>
+      <component name="SaveActionSettings">
+        <option name="actions">
+          <set>
+            <option value="activate" />
+            <option value="activateOnShortcut" />
+            <option value="noActionIfCompileErrors" />
+            <option value="organizeImports" />
+            <option value="reformat" />
+            <option value="reformatChangedCode" />
+            <option value="missingOverrideAnnotation" />
+          </set>
+        </option>
+        <option name="configurationPath" value="" />
+      </component>
+      <component name="SvnConfiguration">
+        <configuration>C:\Users\zhangxinkun\AppData\Roaming\Subversion</configuration>
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.6</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.6</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
       </component>
     </defaultProject>
   </component>
