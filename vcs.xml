@@ -98,6 +98,10 @@
           <option name="url" value="http://github.app.hd123.cn:10080/JPOS/apos.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.app.hd123.cn:10080" />
+          <option name="userName" value="zhangxinkun" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\WorkSpace" />
