@@ -1,14 +1,14 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="18" />
-    <option name="FONT_FAMILY" value="JetBrains Mono" />
     <option name="LINE_SPACING" value="1.3" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value="Microsoft YaHei Mono" />
+    <option name="SECONDARY_FONT_FAMILY" value="Monaco YaHei" />
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
