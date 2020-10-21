@@ -3,10 +3,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_dialog.xml" value="0.2222222222222222" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/deputy_payment_pop_view.xml" value="0.230078125" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_dialog_item.xml" value="0.15486453201970443" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_fragment.xml" value="0.2977777777777778" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_item.xml" value="0.17805320435308344" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_list_fragment.xml" value="0.1" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_list_fragment.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_view_fragment.xml" value="0.1" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_edit_fragment.xml" value="0.17805320435308344" />
       </map>
