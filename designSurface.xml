@@ -2,8 +2,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_dialog.xml" value="0.111328125" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_dialog.xml" value="0.2222222222222222" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_dialog_item.xml" value="0.15486453201970443" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_fragment.xml" value="0.2977777777777778" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_item.xml" value="0.17805320435308344" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_list_fragment.xml" value="0.1" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_view_fragment.xml" value="0.1" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_edit_fragment.xml" value="0.17805320435308344" />
       </map>
     </option>
   </component>
