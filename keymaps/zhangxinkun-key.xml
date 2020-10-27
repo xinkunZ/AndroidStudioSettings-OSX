@@ -96,9 +96,7 @@
   <action id="GuiDesigner.GoToListener">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt m" />
-  </action>
+  <action id="HideAllWindows" />
   <action id="HippieCompletion">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
   </action>
@@ -183,6 +181,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="Vcs.ToggleAmendCommitMode" />
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
