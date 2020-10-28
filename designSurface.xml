@@ -2,6 +2,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JAVA/jdks/android/platforms/android-28/data/res/layout/simple_spinner_item.xml" value="0.23984375" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_account_pay_tab.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_account_pay_tab_selected.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_announcement_item.xml" value="0.210625" />
