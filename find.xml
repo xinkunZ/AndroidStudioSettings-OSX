@@ -3,7 +3,6 @@
     <option name="customScope" value="New changelist" />
     <option name="defaultScopeName" value="New changelist" />
     <option name="SEARCH_SCOPE" value="New changelist" />
-    <option name="FILE_MASK" value="*.gradle" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
