@@ -1,10 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="webp" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="color_toggle_txt" type="PLAIN_TEXT" />
+      <mapping ext="debug" type="PLAIN_TEXT" />
       <mapping pattern="split" type="XML" />
     </extensionMap>
   </component>
