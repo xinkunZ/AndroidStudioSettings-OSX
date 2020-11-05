@@ -14,19 +14,23 @@
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_bottom_white_5.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_circle_pink.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_frame_gray_3.xml" value="0.230859375" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_gray_right_radius5.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_input_report.xml" value="0.24140625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_login_input.xml" value="0.24140625" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_rect_gray.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_shortcut_top_tab_normal.xml" value="0.24140625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_white3.xml" value="0.24140625" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_white_radius5.xml" value="0.4444444444444444" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/layout_white_radius.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_diff_order_list_fragment.xml" value="0.10314039408866996" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_dialog.xml" value="0.2222222222222222" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_dialog_item.xml" value="0.2222222222222222" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_fragment.xml" value="0.4" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_fragment.xml" value="0.48888888888888893" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_edit_item.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_list_fragment.xml" value="0.3333333333333333" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_list_item.xml" value="0.24481658692185007" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_view_fragment.xml" value="0.3333333333333333" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_view_item.xml" value="0.24481658692185007" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_view_fragment.xml" value="0.4444444444444444" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/alloc_receive_view_item.xml" value="0.2933255269320843" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/button_bar_item.xml" value="0.11266258607498088" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/deputy_payment_pop_view.xml" value="0.230078125" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/dialog_base_sweet.xml" value="0.2222222222222222" />
@@ -40,21 +44,21 @@
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/popup_search_edit_list.xml" value="0.20381773399014777" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_dialog.xml" value="0.1828817733990148" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_dialog_item.xml" value="0.1" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_fragment.xml" value="0.4444444444444444" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_fragment.xml" value="0.5555555555555556" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_edit_item.xml" value="0.5933219178082192" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_list_fragment.xml" value="0.3333333333333333" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_list_item.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_notification_item.xml" value="0.3333333333333333" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_notification_select_dialog.xml" value="0.4" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_view_fragment.xml" value="0.3333333333333333" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_view_fragment.xml" value="0.6227758007117438" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/return_request_view_item.xml" value="0.2977777777777778" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/select_ucn_item.xml" value="0.1" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/selfpos_helper_fragment.xml" value="0.2189039408866995" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_edit_fragment.xml" value="0.2977777777777778" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_edit_fragment.xml" value="0.6666666666666666" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_edit_item.xml" value="0.2977777777777778" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_list_fragment.xml" value="0.117578125" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_list_item.xml" value="0.3333333333333333" />
-        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_view_fragment.xml" value="0.4444444444444444" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/store_order_view_fragment.xml" value="0.6666666666666666" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/widget_page_bar.xml" value="0.25970017636684306" />
       </map>
     </option>
