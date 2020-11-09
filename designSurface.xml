@@ -3,7 +3,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/JAVA/jdks/android/platforms/android-28/data/res/drawable/btn_dropdown.xml" value="0.24140625" />
-        <entry key="..\:/JAVA/jdks/android/platforms/android-28/data/res/layout/simple_spinner_item.xml" value="0.23984375" />
+        <entry key="..\:/JAVA/jdks/android/platforms/android-28/data/res/layout/simple_spinner_item.xml" value="0.4444444444444444" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_account_pay_tab.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_account_pay_tab_selected.xml" value="0.210625" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/drawable/bg_announcement_item.xml" value="0.210625" />
@@ -47,6 +47,7 @@
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/fragment_sun_storeincome_edit.xml" value="0.2977777777777778" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/fragment_sun_value_added_add.xml" value="0.230078125" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/invxf_apply_list_fragment.xml" value="0.4444444444444444" />
+        <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/invxf_apply_list_item.xml" value="0.4052132701421801" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/layout_number_keyboard.xml" value="0.38203125" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/popup_search_edit_list.xml" value="0.20381773399014777" />
         <entry key="..\:/Workspace/APP/apos/app/src/main/res/layout/price_ticket_edit_fragment.xml" value="0.1" />
