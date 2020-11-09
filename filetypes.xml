@@ -5,6 +5,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="color_toggle_txt" type="PLAIN_TEXT" />
       <mapping ext="debug" type="PLAIN_TEXT" />
+      <mapping ext="jft" type="PLAIN_TEXT" />
       <mapping pattern="split" type="XML" />
     </extensionMap>
   </component>
