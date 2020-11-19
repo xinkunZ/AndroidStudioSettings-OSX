@@ -105,7 +105,6 @@
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
   <template name="data" value="@lombok.Getter&#10;@lombok.Setter" description="" toReformat="false" toShortenFQNames="true">
@@ -115,6 +114,11 @@
       <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_STATEMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="slfKt" value="  private val logger = org.slf4j.LoggerFactory.getLogger(this::class.java);&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
 </templateSet>
