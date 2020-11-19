@@ -105,6 +105,7 @@
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
   <template name="data" value="@lombok.Getter&#10;@lombok.Setter" description="" toReformat="false" toShortenFQNames="true">
