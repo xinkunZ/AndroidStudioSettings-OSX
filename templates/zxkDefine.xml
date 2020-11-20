@@ -116,7 +116,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="slfKt" value="  private val logger = org.slf4j.LoggerFactory.getLogger(this::class.java);&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="slfKt" value="  private val logger = org.slf4j.LoggerFactory.getLogger(this::class.java);&#10;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_CLASS" value="true" />
     </context>
