@@ -3,7 +3,6 @@
     <option name="customScope" value="invuse&#10;" />
     <option name="defaultScopeName" value="invuse&#10;" />
     <option name="SEARCH_SCOPE" value="invuse&#10;" />
-    <option name="FILE_MASK" value="*.gradle" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
