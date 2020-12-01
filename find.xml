@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="ignore&#10;" />
-    <option name="defaultScopeName" value="ignore&#10;" />
-    <option name="SEARCH_SCOPE" value="ignore&#10;" />
+    <option name="customScope" value="invuse&#10;" />
+    <option name="defaultScopeName" value="invuse&#10;" />
+    <option name="SEARCH_SCOPE" value="invuse&#10;" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
