@@ -3,7 +3,7 @@
     <option name="customScope" value="invuse&#10;" />
     <option name="defaultScopeName" value="invuse&#10;" />
     <option name="SEARCH_SCOPE" value="invuse&#10;" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.gradle" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
@@ -22,10 +22,10 @@
     <mask>*.jft</mask>
     <mask>ScrRetailMgr.java</mask>
     <mask>*import.java</mask>
-    <mask>*.gradle</mask>
     <mask>*.kt</mask>
     <mask>*.xml</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.gradle</mask>
   </component>
 </application>
