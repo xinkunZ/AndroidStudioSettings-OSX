@@ -129,6 +129,9 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
