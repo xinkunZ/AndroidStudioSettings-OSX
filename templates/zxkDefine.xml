@@ -1,10 +1,10 @@
 <templateSet group="zxkDefine">
-  <template name="try" value="try{&#10;$END$&#10;}catch(Exception e){&#10;&#10;}" description="trycatch" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try{&#10;  $END$&#10;}catch(Exception e){&#10;  logger.error(e);&#10;}" description="trycatch" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="listn" value="List&lt;$TYPE$&gt; $VAR$ = new ArrayList&lt;$END$&gt;();" description="create a new list" toReformat="false" toShortenFQNames="true">
+  <template name="listn" value="java.util.List&lt;$TYPE$&gt; $VAR$ = new java.util.ArrayList&lt;$END$&gt;();" description="create a new list" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -12,7 +12,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="list" value="List&lt;$TYPE$&gt; $VAR$" description="declare a list" toReformat="false" toShortenFQNames="true">
+  <template name="list" value="java.util.List&lt;$TYPE$&gt; $VAR$" description="declare a list" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -38,7 +38,7 @@
       <option name="XSL_TEXT" value="false" />
     </context>
   </template>
-  <template name="logger" value="private final Logger logger = Logger.getLogger(this.getClass());" description="create log4j for current class" toReformat="false" toShortenFQNames="true">
+  <template name="logger" value="private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());" description="create log4j for current class" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
@@ -61,7 +61,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="conn" value=" PreparedStatement ps = null;&#10; Connection conn = null;&#10; try {&#10;   conn = ds.getConnection();&#10;   conn.setAutoCommit(false);&#10;   } catch (Exception e) {&#10;   logger.error(e);&#10;    try {&#10;      if (conn != null) {&#10;        conn.rollback();&#10;      }&#10;      } catch (Exception e2) {&#10;   logger.error(e);&#10;     }&#10;      throw e;&#10;    } finally {&#10;      JdbcUtil.close(conn, ps, null);&#10;    }" description="" toReformat="false" toShortenFQNames="true">
+  <template name="conn" value=" java.sql.PreparedStatement ps = null;&#10; java.sql.Connection conn = null;&#10; try {&#10;   conn = ds.getConnection();&#10;   conn.setAutoCommit(false);&#10;&#10;   // TODO &#10;   ps.executeUpdate();&#10;   conn.commit();&#10;   } catch (Exception e) {&#10;   logger.error(e);&#10;    try {&#10;      if (conn != null) {&#10;        conn.rollback();&#10;      }&#10;      } catch (Exception e2) {&#10;   logger.error(e);&#10;     }&#10;      throw e;&#10;    } finally {&#10;      JdbcUtil.close(conn, ps, null);&#10;    }" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
@@ -92,6 +92,33 @@
   <template name="entity" value="EntityManager em = emf.createEntityManager();&#10;    try {&#10;&#10;    } catch (Exception e) {&#10;      logger.error(e);&#10;    } finally {&#10;      em.close();&#10;    }" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="maven compile" value="    &lt;plugins&gt;&#10;      &lt;plugin&gt;&#10;        &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;        &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;        &lt;configuration&gt;&#10;          &lt;source&gt;$end$&lt;/source&gt;&#10;          &lt;target&gt;$end$&lt;/target&gt;&#10;        &lt;/configuration&gt;&#10;      &lt;/plugin&gt;&#10;    &lt;/plugins&gt;" description="set maven compile level" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="slf" value="  private final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(this.getClass());&#10;" description="slf4j log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="data" value="@lombok.Getter&#10;@lombok.Setter" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="slfKt" value="  private val logger = org.slf4j.LoggerFactory.getLogger(this::class.java);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
 </templateSet>
