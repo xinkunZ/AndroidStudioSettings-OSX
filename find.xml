@@ -25,7 +25,7 @@
     <mask>*.xml</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
-    <mask>*.gradle</mask>
     <mask>ClientMgr*</mask>
+    <mask>*.gradle</mask>
   </component>
 </application>
