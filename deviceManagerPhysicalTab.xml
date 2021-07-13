@@ -1,0 +1,18 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="EJAG5002020050000000029" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2021-07-13T11:08:13.776298Z" />
+        <name value="rockchip G500" />
+        <target value="Android 8.1" />
+        <api value="27" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
