@@ -1,7 +1,4 @@
 <keymap version="1" name="macOS zxk" parent="macOS System Shortcuts">
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl left" />
-  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.Move" />
